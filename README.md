@@ -1,7 +1,7 @@
 # hackaton_smtu_2024
 
 
-# haruto_description
+# mecbot_description
 This repository is for mecbot robot related urdf model
 
 This repository is a fully recycled repository https://github.com/santoshbalaji/haruto_description
