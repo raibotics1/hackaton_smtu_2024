@@ -3,8 +3,8 @@
 <package format="3">
   <name>example_cpp_package</name>
   <version>0.0.0</version>
-  <description>TODO: Package description</description>
-  <maintainer email="hackatonsmtu2024@todo.todo">hackatonsmtu2024</maintainer>
+  <description>Example CPP Package</description>
+  <maintainer email="romatwobox@gmail.com">raibotics</maintainer>
   <license>TODO: License declaration</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
