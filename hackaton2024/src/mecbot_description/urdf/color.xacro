@@ -1,0 +1,105 @@
+<?xml version="1.0"?>
+
+<!-- color.xacro -->
+<robot xmlns:xacro="http://wiki.ros.org/xacro">
+
+  <!-- Define colors -->
+  <xacro:property name="black_material" value="Gazebo/Black"/>
+  <xacro:property name="white_material" value="Gazebo/White"/>
+  <xacro:property name="blue_material" value="Gazebo/Blue"/>
+
+  <!-- Define materials -->
+  <material name="${black_material}">
+    <color rgba="0.0 0.0 0.0 1.0"/>
+  </material>
+
+  <material name="${white_material}">
+    <color rgba="1.0 1.0 1.0 1.0"/>
+  </material>
+
+  <material name="${blue_material}">
+    <color rgba="0.0 0.0 1.0 1.0"/>
+  </material>
+
+  <!-- Gazebo materials -->
+  <gazebo reference="world_link">
+    <material>${black_material}</material>
+  </gazebo>
+
+  <gazebo reference="first_base_link">
+    <material>${white_material}</material>
+  </gazebo>
+
+  <gazebo reference="second_base_link">
+    <material>${white_material}</material>
+  </gazebo>
+
+  <gazebo reference="third_base_link">
+    <material>${white_material}</material>
+  </gazebo>
+
+  <gazebo reference="first_front_left_pillar_link">
+    <material>${blue_material}</material>
+  </gazebo>
+
+  <gazebo reference="first_front_right_pillar_link">
+    <material>${blue_material}</material>
+  </gazebo>
+
+  <gazebo reference="first_back_left_pillar_link">
+    <material>${blue_material}</material>
+  </gazebo>
+
+  <gazebo reference="first_back_right_pillar_link">
+    <material>${blue_material}</material>
+  </gazebo>
+
+  <gazebo reference="second_front_left_pillar_link">
+    <material>${blue_material}</material>
+  </gazebo>
+
+  <gazebo reference="second_front_right_pillar_link">
+    <material>${blue_material}</material>
+  </gazebo>
+
+  <gazebo reference="second_back_left_pillar_link">
+    <material>${blue_material}</material>
+  </gazebo>
+
+  <gazebo reference="second_back_right_pillar_link">
+    <material>${blue_material}</material>
+  </gazebo>
+
+  <gazebo reference="front_left_motor_link">
+    <material>${black_material}</material>
+  </gazebo>
+
+  <gazebo reference="front_right_motor_link">
+    <material>${black_material}</material>
+  </gazebo>
+
+  <gazebo reference="back_left_motor_link">
+    <material>${black_material}</material>
+  </gazebo>
+
+  <gazebo reference="back_right_motor_link">
+    <material>${black_material}</material>
+  </gazebo>
+
+  <gazebo reference="front_left_wheel_link">
+    <material>${black_material}</material>
+  </gazebo>
+
+  <gazebo reference="front_right_wheel_link">
+    <material>${black_material}</material>
+  </gazebo>
+
+  <gazebo reference="back_left_wheel_link">
+    <material>${black_material}</material>
+  </gazebo>
+
+  <gazebo reference="back_right_wheel_link">
+    <material>${black_material}</material>
+  </gazebo>
+
+</robot>
