@@ -21,6 +21,7 @@ setup(
     entry_points={
         'console_scripts': [
             'example_py_node = example_py_package.example_py_node:main',
+            'motion = example_py_package.MotionNode:main',
         ],
     },
 )
