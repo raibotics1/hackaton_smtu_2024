@@ -19,7 +19,7 @@ This repository is a fully recycled repository https://github.com/santoshbalaji/
 - To build the package
 
 ```
-  colcon build --packages-select haruto_description
+  colcon build --packages-select mecbot_description
 ```
 
 - To visualize the robot in rviz
